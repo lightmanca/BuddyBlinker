@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{A0E3B68E-B896-45C4-B042-04F57CBE1C3B}</ProjectGuid>
+    <ProjectGuid>{94403044-AC9E-4020-A92A-3AD0E7ED0323}</ProjectGuid>
     <RootNamespace>BuddyBlinker</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -41,10 +41,10 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>C:\Program Files\arduino-1.0.4\hardware\arduino\cores\arduino;C:\Program Files\arduino-1.0.4\hardware\arduino\variants\standard;C:\Program Files\arduino-1.0.4\libraries\SPI;C:\Program Files\arduino-1.0.4\libraries\SPI\utility;C:\Program Files\arduino-1.0.4\libraries\Wire;C:\Program Files\arduino-1.0.4\libraries\Wire\utility;d:\Users\LightMan\Documents\Arduino\libraries\Max7219;d:\Users\LightMan\Documents\Arduino\libraries\Max7219\utility;d:\Users\LightMan\Documents\Arduino\libraries\WireSram;d:\Users\LightMan\Documents\Arduino\libraries\WireSram\utility;d:\Users\LightMan\Documents\Arduino\libraries\RF24;d:\Users\LightMan\Documents\Arduino\libraries\RF24\utility;c:\program files\arduino-1.0.4\hardware\tools\avr\avr\include\;c:\program files\arduino-1.0.4\hardware\tools\avr\avr\include\avr\;c:\program files\arduino-1.0.4\hardware\tools\avr\avr\;c:\program files\arduino-1.0.4\hardware\tools\avr\lib\gcc\avr\4.3.2\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <ForcedIncludeFiles>D:\Users\LightMan\Documents\Arduino\BuddyBlinker\Visual Micro\.BuddyBlinker.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <AdditionalIncludeDirectories>C:\Program Files\arduino-1.0.4\hardware\arduino\cores\arduino;C:\Program Files\arduino-1.0.4\hardware\arduino\variants\standard;C:\Program Files\arduino-1.0.4\libraries\SPI;C:\Program Files\arduino-1.0.4\libraries\SPI\utility;C:\Program Files\arduino-1.0.4\libraries\Wire;C:\Program Files\arduino-1.0.4\libraries\Wire\utility;C:\Program Files\arduino-1.0.4\libraries\EEPROM;C:\Program Files\arduino-1.0.4\libraries\EEPROM\utility;C:\Program Files\arduino-1.0.4\libraries\SoftwareSerial;C:\Program Files\arduino-1.0.4\libraries\SoftwareSerial\utility;d:\Users\LightMan\Documents\Arduino\libraries\Adafruit_GPS;d:\Users\LightMan\Documents\Arduino\libraries\Adafruit_GPS\utility;d:\Users\LightMan\Documents\Arduino\libraries\Max7219;d:\Users\LightMan\Documents\Arduino\libraries\Max7219\utility;d:\Users\LightMan\Documents\Arduino\libraries\WireSram;d:\Users\LightMan\Documents\Arduino\libraries\WireSram\utility;d:\Users\LightMan\Documents\Arduino\libraries\RF24;d:\Users\LightMan\Documents\Arduino\libraries\RF24\utility;c:\program files\arduino-1.0.4\hardware\tools\avr\avr\include\;c:\program files\arduino-1.0.4\hardware\tools\avr\avr\include\avr\;c:\program files\arduino-1.0.4\hardware\tools\avr\avr\;c:\program files\arduino-1.0.4\hardware\tools\avr\lib\gcc\avr\4.3.2\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>d:\Users\LightMan\Documents\Arduino\BuddyBlinker\Visual Micro\.BuddyBlinker.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <IgnoreStandardIncludePath>true</IgnoreStandardIncludePath>
-      <PreprocessorDefinitions>__AVR_ATmega328P__;_VMDEBUG=1;ARDUINO=104;__AVR__;F_CPU=16000000L;__cplusplus;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>__AVR_ATmega328P__;ARDUINO=104;__AVR__;F_CPU=16000000L;__cplusplus;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -53,9 +53,14 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
-      <Optimization>MaxSpeed</Optimization>
+      <Optimization>Disabled</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>C:\Program Files\arduino-1.0.4\hardware\arduino\cores\arduino;C:\Program Files\arduino-1.0.4\hardware\arduino\variants\standard;C:\Program Files\arduino-1.0.4\libraries\SPI;C:\Program Files\arduino-1.0.4\libraries\SPI\utility;C:\Program Files\arduino-1.0.4\libraries\Wire;C:\Program Files\arduino-1.0.4\libraries\Wire\utility;C:\Program Files\arduino-1.0.4\libraries\EEPROM;C:\Program Files\arduino-1.0.4\libraries\EEPROM\utility;d:\Users\LightMan\Documents\Arduino\libraries\Max7219;d:\Users\LightMan\Documents\Arduino\libraries\Max7219\utility;d:\Users\LightMan\Documents\Arduino\libraries\WireSram;d:\Users\LightMan\Documents\Arduino\libraries\WireSram\utility;d:\Users\LightMan\Documents\Arduino\libraries\RF24;d:\Users\LightMan\Documents\Arduino\libraries\RF24\utility;c:\program files\arduino-1.0.4\hardware\tools\avr\avr\include\;c:\program files\arduino-1.0.4\hardware\tools\avr\avr\include\avr\;c:\program files\arduino-1.0.4\hardware\tools\avr\avr\;c:\program files\arduino-1.0.4\hardware\tools\avr\lib\gcc\avr\4.3.2\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>d:\Users\LightMan\Documents\Arduino\BuddyBlinker\Visual Micro\.BuddyBlinker.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <IgnoreStandardIncludePath>true</IgnoreStandardIncludePath>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <PreprocessorDefinitions>__AVR_ATmega328P__;ARDUINO=104;__AVR__;F_CPU=16000000L;__cplusplus;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -69,12 +74,20 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CommonUtils.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="DeviceInfo.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
     <ClInclude Include="Packet.h">
       <FileType>CppCode</FileType>
     </ClInclude>
     <ClInclude Include="Visual Micro\.BuddyBlinker.vsarduino.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CommonUtil.cpp" />
+    <ClCompile Include="DeviceInfo.cpp" />
     <ClCompile Include="Packet.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
@@ -82,7 +95,7 @@
   </ImportGroup>
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties arduino.upload.port="COM5" arduino.board.name="uno" arduino.board.desc="Arduino Uno" arduino.board.property_bag="uno.name=Arduino Uno&#xD;&#xA;uno.upload.protocol=arduino&#xD;&#xA;uno.upload.maximum_size=32256&#xD;&#xA;uno.upload.speed=115200&#xD;&#xA;uno.bootloader.low_fuses=0xff&#xD;&#xA;uno.bootloader.high_fuses=0xde&#xD;&#xA;uno.bootloader.extended_fuses=0x05&#xD;&#xA;uno.bootloader.path=optiboot&#xD;&#xA;uno.bootloader.file=optiboot_atmega328.hex&#xD;&#xA;uno.bootloader.unlock_bits=0x3F&#xD;&#xA;uno.bootloader.lock_bits=0x0F&#xD;&#xA;uno.build.mcu=atmega328p&#xD;&#xA;uno.build.f_cpu=16000000L&#xD;&#xA;uno.build.core=arduino&#xD;&#xA;uno.build.variant=standard&#xD;&#xA;" arduino.build.mcu="atmega328p" arduino.build.f_cpu="16000000L" arduino.build.core="arduino" arduino.upload.protocol="arduino" arduino.upload.speed="115200" arduino.upload.maximum_size="32256" />
+      <UserProperties arduino.upload.port="COM6" arduino.board.name="pro5v328" arduino.board.desc="Arduino Pro or Pro Mini (5V, 16 MHz) w/ ATmega328" arduino.board.property_bag="name=Arduino Pro or Pro Mini (5V, 16 MHz) w/ ATmega328&#xD;&#xA;upload.protocol=arduino&#xD;&#xA;upload.maximum_size=30720&#xD;&#xA;upload.speed=57600&#xD;&#xA;bootloader.low_fuses=0xFF&#xD;&#xA;bootloader.high_fuses=0xDA&#xD;&#xA;bootloader.extended_fuses=0x05&#xD;&#xA;bootloader.path=atmega&#xD;&#xA;bootloader.file=ATmegaBOOT_168_atmega328.hex&#xD;&#xA;bootloader.unlock_bits=0x3F&#xD;&#xA;bootloader.lock_bits=0x0F&#xD;&#xA;build.mcu=atmega328p&#xD;&#xA;build.f_cpu=16000000L&#xD;&#xA;build.core=arduino&#xD;&#xA;build.variant=standard&#xD;&#xA;runtime.ide.path=C:\Program Files\arduino-1.0.4&#xD;&#xA;build.system.path=C:\Program Files\arduino-1.0.4\hardware\arduino\system&#xD;&#xA;software=ARDUINO&#xD;&#xA;runtime.ide.version=104&#xD;&#xA;vm.core.include=arduino.h&#xD;&#xA;vm.boardsource.path=C:\Program Files\arduino-1.0.4\hardware\arduino&#xD;&#xA;vm.boardsource.name=boards.txt&#xD;&#xA;vm.platformname.name=&#xD;&#xA;" arduino.build.mcu="atmega328p" arduino.build.f_cpu="16000000L" arduino.build.core="arduino" arduino.upload.protocol="arduino" arduino.upload.speed="57600" arduino.upload.maximum_size="30720" />
     </VisualStudio>
   </ProjectExtensions>
 </Project>
